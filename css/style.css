@@ -1,5 +1,8 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
+* {
+    font-family: 'Bradley Hand', cursive;
+}
 .menu {
     background-color: #cb613f;
 }
@@ -15,4 +18,54 @@
 .menu .item a {
     color: #f7e9e2;
     text-decoration: none;
+}
+
+.faixa {
+    background-color: #f7e9e2;
+    text-align: center;
+    padding: 25px 0 25px;
+}
+h3 {
+    padding: 20px 0;
+    color: #cb613f;
+    font-weight: 600;
+}
+
+.description {
+    display: block;
+}
+
+.row {
+    text-align: center;
+}
+a {
+    cursor: pointer;
+    color: #cb613f
+}
+a:hover {
+    text-decoration: none;
+    color: #cb613f
+}
+.product {
+    height: 280px;
+    width: 280px;
+    margin: 50px auto;
+    object-fit: cover;
+}
+
+.product.sling {
+    transform: rotate(90deg);
+    
+}
+footer {
+    margin-top: 50px;
+    height: 80px;
+}
+footer img {
+    height: 80px;
+    width: auto;
+}
+footer p {
+    line-height: 0.8;
+    color: #cb613f;
 }
